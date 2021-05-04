@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MathLibraryCSharpDotNet5">
+      <HintPath>..\MathLibraryCSharpDotNet5\bin\Debug\net5.0\MathLibraryCSharpDotNet5.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
