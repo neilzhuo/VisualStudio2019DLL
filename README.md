@@ -29,16 +29,16 @@ There are several projects which are used to generate dll and clients (which are
 1. Use dumpbin.exe to check .dll file. Pay attention to the platform, x86 or x64. e.g.
 - check platform
 ```
-> dumpbin /headers TestLibraryCPlusPlus.dll
+> dumpbin /headers MathLibraryCPlusPlus.dll
 ```
 - check exports
 ```
-> dumpbin /exports TestLibraryCPlusPlus.dll
+> dumpbin /exports MathLibraryCPlusPlus.dll
 ```
 
 2. Object Browser to check functions in DLL.
 
 3. 'ildasm' to check DLL, which is coded by C# and .Net platform.. It pops up a GUI to show.
 ```
-> ildasm  MathLibraryCSharpDotNet5.dll
+> ildasm MathLibraryCSharpDotNet5.dll
 ```
